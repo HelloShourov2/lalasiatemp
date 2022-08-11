@@ -1,0 +1,138 @@
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 480px) {
+    .container>*
+    {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+    .brand_logo img
+    {
+        width: 32px;
+        height: 32px;
+    }
+    .brand_logo
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .brand_area
+    {
+        padding: 15px 0;
+    }
+    .navbar-toggler:focus
+    {
+        box-shadow: none !important;
+    }
+    .navbar_nav 
+    {
+        gap: 10px;
+        display: flex;
+    }
+    #navbarNav 
+    {
+        position: absolute;
+        top: 60px;
+        left: 25px;
+    }
+
+/* single_product_details */
+
+.single_product_detail 
+{
+    padding-top: 50px !important;
+}
+.all_details 
+{
+    padding-left: 0;
+}
+.paragraph_read_more_btn a 
+{
+    right: 35px;
+}
+.product_header_paragraph h1 
+{
+    font-size: 24px;
+    line-height: 31px;
+    padding-top: 30px;
+}
+.card_body p 
+{
+    line-height: 21px;
+    font-size: 12px;
+    padding: 4px 0 12px;
+}
+.padding_top 
+{
+    padding-top: 15px !important;
+}
+.card_body h3 
+{
+    
+    font-size: 14px;
+    line-height: 18px;
+}
+.product_card
+{
+    padding-bottom: 25px;
+}
+
+/* single_product_details */
+
+
+/* related_item */
+
+.related_items 
+{
+    padding-bottom: 80px;
+}
+
+
+/* related_item */
+
+    /* footer */
+    .footer_area 
+    {
+        padding-top: 50px;
+    }
+    .footer_wrapper
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .single_article_wrapper 
+    {
+        margin-bottom: 20px;
+    }
+    .footer_all_items_wrapper 
+    {
+        column-gap: 30px;
+        padding-top: 30px;
+        justify-content: space-between !important;
+    }
+    
+    .footer_paragraph p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .footer_all_items_wrapper h3
+    {
+        font-size: 16px;
+        line-height: 20spx;
+    }
+    .footer_product_list {
+        padding-top: 15px;
+        gap: 5px;
+    }
+    .footer_product_list a
+    {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .footer_area {
+        padding-top: 20px;
+    }
+    .footer_area
+    {
+        padding-bottom: 25px;
+    }
+}

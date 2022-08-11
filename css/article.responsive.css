@@ -1,0 +1,244 @@
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 480px) {
+    .container>*
+    {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+    .brand_area
+    {
+        padding: 15px 0;
+    }
+    .navbar-toggler:focus
+    {
+        box-shadow: none !important;
+    }
+    .brand_logo img
+    {
+        width: 32px;
+        height: 32px;
+    }
+    .brand_logo
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .navbar_nav 
+    {
+        gap: 10px;
+        display: flex;
+    }
+    #navbarNav 
+    {
+        position: absolute;
+        top: 60px;
+        left: 25px;
+    }
+
+    .display_none,.filter_icon_text
+    {
+        display: none;
+    }
+
+    .article_heading_text h1
+    {
+        font-size: 26px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+    }
+    .article_heading_text p 
+    {
+        font-size: 14px;
+        line-height: 25px;
+        padding-top: 20px !important;
+    }
+    .slider_content 
+    {
+        padding: 11px 12px;
+    }
+    .slider_content_wrapper 
+    {
+        left: 0;
+        padding: 0 30px;
+    }
+    .slider_content p 
+    {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .slider_content h4
+    {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 4px 0 10px;
+    }
+    .article_owner img
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .article_owner_text h6
+    {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .slider_img 
+    {
+        padding-top: 30px;
+    }
+    .daily_news_section 
+    {
+        margin-top: 60px;
+    }
+    .news_text_heading h3
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .news_text_heading h1
+    {
+        font-size: 24px;
+        line-height: 31px;
+        padding: 8px 0 36px;
+    }
+    .each_product 
+    {
+        padding-top: 18px;
+    }
+
+
+    .product_description p 
+    {
+        font-size: 12px;
+        line-height: 21px;
+        padding: 0;
+    }
+    .product_description h3 
+    {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 4px 0;
+    }
+    .display_hide
+    {
+        display: inline-block;
+    }
+    .product_img 
+    {
+        padding-bottom: 16px;
+    }
+    .trending_topics_container 
+    {
+        padding-top: 100px;
+    }
+    
+    .filter_list li a 
+    {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 8px 14px;
+        margin-right: 10px;
+    }
+    .single_article_wrapper 
+    {
+        margin-bottom: 0px;
+    }
+    
+    .single_article_wrapper 
+    {
+        padding-top: 20px;
+    }
+    .article_text_wrapper p 
+    {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .article_paragraph_heading
+    {
+        padding-left: 14px;
+    }
+    .article_text_wrapper h3 
+    {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 4px 0 10px 0;
+    }
+
+
+
+
+
+    .load_more_btn
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .article_load_more_btn 
+    {
+        padding-top: 30px;
+    }
+
+
+    /* discount_area */
+    .discount_area 
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 0 50px;
+    }
+    .discount_header h3
+    {
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .discount_area_button
+    {
+        justify-content: start !important;
+        padding-top: 16px;
+    }
+    /* discount_area */
+
+
+    /* footer */
+    .footer_area 
+    {
+        padding-top: 50px;
+    }
+    .footer_wrapper
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_all_items_wrapper 
+    {
+        column-gap: 30px;
+        padding-top: 30px;
+        justify-content: space-between !important;
+    }
+    
+    .footer_paragraph p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .footer_all_items_wrapper h3
+    {
+        font-size: 16px;
+        line-height: 20spx;
+    }
+    .footer_product_list {
+        padding-top: 15px;
+        gap: 5px;
+    }
+    .footer_product_list a
+    {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .footer_area {
+        padding-top: 20px;
+    }
+    .footer_area
+    {
+        padding-bottom: 25px;
+    }
+}
