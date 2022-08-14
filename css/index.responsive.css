@@ -256,7 +256,7 @@
 
     .article_text_wrapper_one 
     {
-        padding: 0 0 14px 14px;
+        padding: 80px 0 14px 14px;
     }
 
     .article_text_wrapper_one p 
@@ -314,6 +314,13 @@
     {
         height: 18px;
         width: 18px;
+    }
+    .owl-theme .owl-nav 
+    {
+        display: none;
+    }
+    .all_article_wrapper {
+        margin-top: 20px;
     }
     .paragraph_button_wrapper p
     {

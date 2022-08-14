@@ -34,132 +34,126 @@
         top: 60px;
         left: 25px;
     }
-    /* navbar_end */
+    /* nav_ end */
 
-    
-    /* service_section */
-    .service_section {
-        padding: 50px 0;
+
+    /* cover_section */
+    .cover_section 
+    {
+        padding-top: 50px;
     }
 
-    .services_heading_text h1
+    .cover_heading_text h1 
     {
         font-size: 26px;
-        line-height: 34px;
-        letter-spacing: 0.01em;
+        line-height: 33px;
     }
-    .services_heading_text p 
+    .cover_heading_text p 
     {
         font-size: 14px;
         line-height: 25px;
-        padding-top: 15px !important;
+        padding: 20px 0 0;
     }
-
-    .bottom_border
+    .cover_img 
     {
-        display: none;
+        padding-top: 30px;
     }
-    .service_item {
-        padding: 0 0px 20px 0;
-    }
-    .service_item h1
-    {
-        font-size: 32px;
-        line-height: 32px;
-    }
-    .service_item h6
-    {
-        font-size: 14px;
-        line-height: 18px;
-    }
-    .service_item p
-    {
-        font-size: 12px;
-        line-height: 21px;
-    }
-    .all_services 
-    {
-        grid-template-columns: auto;
-    }
-    /* service_section */
-
-    /* portfolio_images */
-    .portfolio_heading_text h6
-    {
-        font-size: 14px;
-        line-height: 18px;
-    }
-    .portfolio_heading_text h4
-    {
-        font-size: 24px;
-        line-height: 31px;
-        padding-top: 8px;
-    }
-    .portfolio_description_text p
+    .article_description p, .bedroom_description p 
     {
         font-size: 14px;
         line-height: 25px;
-        padding-top: 16px;
     }
-    .portfolio_description_text a
+    .article_description 
+    {
+        padding-top: 30px;
+    }
+    .spacer {
+        padding-top: 20px;
+    }
+    .article_img 
+    {
+        padding-top: 20px;
+    }
+    .bedroom_section 
+    {
+        padding-top: 30px;
+    }
+    .bedroom_description_header 
     {
         font-size: 14px;
         line-height: 18px;
-        text-decoration: underline;
+        padding-bottom: 4px;
     }
-    .portfolio_img_details
+    .padding_top
     {
-        padding: 0 0 20px 20px;
+        padding-top: 20px;
     }
-    .portfolio_img_details h4
+    .bedroom_article_img 
+    {
+        padding: 30px 14px;
+    }
+    /* cover_section */
+
+    /* similar_section */
+    .similar_topic 
+    {
+        padding-top: 100px;
+    }
+    .similar_topics_heading_text h4 
+    {
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 8px;
+    }
+    .similar_topics_heading_text h1 
+    {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .similar_topics_heading_text 
+    {
+        padding-bottom: 10px;
+    }
+    
+    .product_img 
+    {
+        height: 180px;
+        padding-bottom: 10px;
+    }
+    .product_description p 
+    {
+        font-size: 12px;
+        line-height: 21px;
+        padding-top: 5px;
+    }
+    .product_description h3 
     {
         font-size: 14px;
         line-height: 18px;
     }
-    .portfolio_img_details p
-    {
-        font-size: 12px;
-        line-height: 21px;
-        padding: 6px 0;
-    }
-    .portfolio_img_details a
+    .article_owner_text h6 
     {
         font-size: 12px;
         line-height: 21px;
     }
-    .first_portfolio_img
+    .article_owner_text p 
     {
-        width: 330px;
-        height: 410px;
+        font-size: 12px;
+        line-height: 21px;
     }
-    .second_portfolio_img
+    .each_product 
     {
-        width: 330px;
-        height: 410px;
-        margin-top: 20px;
+        padding-top: 20px;
     }
-    .third_portfolio_img
-    {
-        width: 330px;
-        height: 410px;
-        margin-top: 20px;
-    }
-    .portfolio_images 
-    {
-        padding: 40px 0;
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-        gap: 0px;
-    }
-    /* portfolio_images */
+    /* similar_section */
+
 
     /* discount_area */
     .discount_area 
     {
         display: flex;
         flex-direction: column;
-        padding: 60px 10px;
+        padding: 100px 14px 50px;
     }
     .discount_header h3
     {
@@ -169,10 +163,9 @@
     .discount_area_button
     {
         justify-content: start !important;
-        padding-top: 16px;
+        padding-top: 20px;
     }
     /* discount_area */
-
 
     /* footer */
     .footer_area 

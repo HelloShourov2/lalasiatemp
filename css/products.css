@@ -156,6 +156,7 @@ a.nav-link:hover
     margin: 50px 0;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .discount_button 
 {
@@ -166,6 +167,55 @@ a.nav-link:hover
     border-radius: 16px;
     font-size: 14px;
     line-height: 24px;
+}
+#product_cover_slider
+{
+    position: relative;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: 30px;
+    top: 300px;
+    font-size: 30px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(21, 20, 17, 0.6);
+    backdrop-filter: blur(15px);
+    color: #fff;
+}
+.owl-carousel .owl-nav button.owl-next:hover {
+    color: #151411;
+    background-color: #fff;
+}
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: #151411;
+    background-color: #fff;
+}
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: 30px;
+    top: 300px;
+    font-size: 30px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(21, 20, 17, 0.6);
+    backdrop-filter: blur(15px);
+    color: #fff;
+}
+
+
+
+
+.slider_details {
+    padding-left: 100px;
 }
 .slider_details h3 
 {

@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'eudoxus_sansmedium';
+    font-weight: 500;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6, p
+{
+    margin: 0;
+}
+.container
+{
+    max-width: 1240px;
+}
+::-webkit-scrollbar
+{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track
+{
+    background: rgba(233, 242, 255, 0.3);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #0133661A;
+}
+/* nav menu area start*/
+
+.menu_border{
+    border-bottom: 2px solid #F3F3F3;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 1000;
+}
+.menu_wrapper{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+/* First div start*/
+a.nav-link{
+    border-bottom: 3px solid transparent;
+}
+a.nav-link:focus
+{
+    border-bottom: 3px solid #518581;
+    color: #518581;
+}
+a.nav-link:hover
+{
+    color: #518581 !important;
+}
+
+.brand_area a:hover
+{
+    color: #151411;
+}
+.brand_area
+{
+    width: 31%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+/* First div end */
+
+/* Second div start*/
+.main_menu_area
+{
+    width: 69%;
+    height: 100%;
+    justify-content: space-between;
+}
+/* Second div end*/
+
+/*Nav Logo start*/
+
+.brand_logo 
+{
+    font-family: 'eudoxus_sansbold';
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #151411;
+}
+/* Nav Logo end*/
+
+/* navigation items start*/
+
+.nav-link
+{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #151411;
+    padding: 0 !important;
+}
+.navbar_nav
+{
+    gap: 60px ;
+    margin-top: 10px;
+}
+.user_icon
+{
+    padding-left: 20px;
+}
+.navbar-toggler:focus 
+{
+    box-shadow: none !important;
+}
+/* navigation items end*/
+/* nav menu area end */
+.cover_section
+{
+    padding-top: 100px;
+}
+.cover_heading_text h1 
+{
+    font-family: 'eudoxus_sansbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    color: #151411;
+}
+
+.cover_heading_text p
+{   
+    font-size: 18px;
+    line-height: 32px;
+    color: #AFADB5;
+    padding: 10px 170px;
+}
+.cover_img
+{
+    padding-top: 40px;
+}
+.cover_img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.article_description
+{
+    padding-top: 50px;
+}
+.article_description p,.bedroom_description p 
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: #AFADB5;
+}
+.spacer
+{
+    padding-top: 30px;
+}
+.article_img img {
+    width: 100%;
+    height: auto;
+}
+.article_img
+{
+    padding-top: 30px;
+}
+
+.bedroom_section
+{
+    padding-top: 50px;
+}
+
+.bedroom_description_header
+{
+    font-family: 'eudoxus_sansbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #151411;
+    padding-bottom: 12px;
+}
+.bedroom_article_img
+{
+    padding: 50px 0;
+}
+.bedroom_article_img img
+{
+    width: 100%;
+    height: auto;
+}
+
+.similar_topic
+{
+    padding-top: 170px;
+}
+.similar_topics_heading_text
+{
+    padding-bottom: 50px;
+}
+.similar_topics_heading_text h1
+{
+    font-family: 'eudoxus_sansbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color: #151411;
+}
+.similar_topics_heading_text h4
+{   
+    font-family: 'eudoxus_sansbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFB23F;
+    padding-bottom: 14px;
+}
+.display_ellipse
+{
+    text-overflow: ellipsis;
+    line-clamp: 2;
+}
+
+.product_description
+{
+    width: 100%;
+}
+.display_ellipse
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.display_second_ellipse
+{
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product_description h3
+{
+    font-family: 'eudoxus_sansbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #151411;
+    padding-top: 10px;
+}
+.product_description p
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: #AFADB5;
+    padding-top: 5px;
+}
+.article_owner_text h6
+{
+    font-family: 'eudoxus_sansbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    color: #151411;
+}
+.article_owner_text p
+{
+    font-size: 14px;
+    line-height: 25px;
+    color: #AFADB5;
+}
+.product_img img
+{
+    width: 100%;
+    height: 100%;
+}
+.product_img
+{
+    height: 360px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* discount_area */
+
+.discount_area
+{
+    padding: 170px 0 80px;
+}
+.discount_header h3 
+{
+    font-family: 'eudoxus_sansbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 57px;
+    color: #151411;
+}
+
+/* discount_button */
+
+.discount_button img
+{
+    padding-left: 15px;
+}
+.discount_button
+{
+    padding: 15px 30px;
+    border: none;
+    background-color: #518581;
+    color: #FFFFFF;
+}
+
+/* discount_button */
+/* footer_area */
+.footer_area
+{
+    border-top: 1.5px solid #ECE4DE;
+    padding: 70px 0;
+}
+.footer_wrapper
+{
+    display: flex;
+    padding: 70px 0;
+    border-top: 2px solid #ECE4DE;
+}
+
+.footer_product_list
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer_paragraph p
+{   font-family: 'eudoxus_sansmedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #151411;
+}
+.footer_product_list
+{
+    padding-top: 20px;
+    gap: 10px;
+}
+.footer_product_list a
+{
+    font-family: 'eudoxus_sansmedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #151411;
+    opacity: 0.8;
+}
+.footer_all_items_wrapper
+{
+    gap: 75px;
+}
+/* footer_area */

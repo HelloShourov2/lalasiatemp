@@ -34,132 +34,179 @@
         top: 60px;
         left: 25px;
     }
-    /* navbar_end */
 
-    
-    /* service_section */
-    .service_section {
-        padding: 50px 0;
+/* about_section */
+
+    .about_section 
+    {
+        padding-top: 50px;
     }
 
-    .services_heading_text h1
+    .about_us_heading h1 
     {
         font-size: 26px;
         line-height: 34px;
-        letter-spacing: 0.01em;
     }
-    .services_heading_text p 
+
+    .about_us_text p 
     {
         font-size: 14px;
         line-height: 25px;
-        padding-top: 15px !important;
+        padding-top: 20px;
     }
 
-    .bottom_border
+    .embaded_video 
     {
-        display: none;
+        padding-top: 30px;
     }
-    .service_item {
-        padding: 0 0px 20px 0;
-    }
-    .service_item h1
+
+    .embaded_video iframe 
     {
-        font-size: 32px;
-        line-height: 32px;
+        width: 100%;
+        height: 200px;
     }
-    .service_item h6
+/* about_section */
+
+
+/* our_mission_section */
+    .our_mission_section 
+    {
+        padding-top: 100px;
+    }
+    .our_mission_heading_text h6, .our_team_heading_text h6 
     {
         font-size: 14px;
         line-height: 18px;
     }
-    .service_item p
-    {
-        font-size: 12px;
-        line-height: 21px;
-    }
-    .all_services 
-    {
-        grid-template-columns: auto;
-    }
-    /* service_section */
 
-    /* portfolio_images */
-    .portfolio_heading_text h6
+    .our_mission_heading_text h1 
+    {
+        font-size: 24px;
+        line-height: 31px;
+        padding: 8px 0 0;
+    }
+
+    .single_projects h2 
+    {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .single_projects p 
     {
         font-size: 14px;
-        line-height: 18px;
+        line-height: 25px;
     }
-    .portfolio_heading_text h4
+
+    .single_projects 
+    {
+        padding-right: 4px;
+    }
+
+    .project_finished 
+    {
+        padding-top: 30px;
+    }
+
+    .support_icon img
+    {
+        width: 24px;
+        height: 24px;
+    }
+    .support_icon 
+    {
+        height: 44px;
+        width: 44px;
+    }
+
+    .support_description h4 
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .support_description p 
+    {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .single_support 
+    {
+        padding-top: 25px;
+    }
+/* our_mission_section */
+
+
+/* our_team_section */
+    .our_team_section 
+    {
+        padding-top: 100px;
+    }
+
+    .our_team_heading_text h1 
     {
         font-size: 24px;
         line-height: 31px;
         padding-top: 8px;
     }
-    .portfolio_description_text p
+
+    .our_team_description p 
     {
         font-size: 14px;
-        line-height: 25px;
-        padding-top: 16px;
+        line-height: 21px;
     }
-    .portfolio_description_text a
+
+    .team_member 
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    .our_team_members 
+    {
+        padding-top: 10px;
+    }
+
+    .single_member 
+    {
+        padding-top: 20px;
+    }
+
+    .member_details h3 
     {
         font-size: 14px;
         line-height: 18px;
-        text-decoration: underline;
     }
-    .portfolio_img_details
-    {
-        padding: 0 0 20px 20px;
-    }
-    .portfolio_img_details h4
-    {
-        font-size: 14px;
-        line-height: 18px;
-    }
-    .portfolio_img_details p
+
+    .member_details p 
     {
         font-size: 12px;
-        line-height: 21px;
-        padding: 6px 0;
+        line-height: 22px;
     }
-    .portfolio_img_details a
+
+    .member_details 
     {
-        font-size: 12px;
-        line-height: 21px;
+        padding-top: 14px;
     }
-    .first_portfolio_img
-    {
-        width: 330px;
-        height: 410px;
-    }
-    .second_portfolio_img
-    {
-        width: 330px;
-        height: 410px;
-        margin-top: 20px;
-    }
-    .third_portfolio_img
-    {
-        width: 330px;
-        height: 410px;
-        margin-top: 20px;
-    }
-    .portfolio_images 
-    {
-        padding: 40px 0;
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-        gap: 0px;
-    }
-    /* portfolio_images */
+/* our_team_section */
+
+
+
+
+
+
+
+
+
+
 
     /* discount_area */
     .discount_area 
     {
         display: flex;
         flex-direction: column;
-        padding: 60px 10px;
+        padding: 100px 14px 50px;
     }
     .discount_header h3
     {

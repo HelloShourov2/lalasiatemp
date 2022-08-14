@@ -75,9 +75,16 @@
         line-height: 22px;
         color: rgba(255, 255, 255, 0.8);
     }
+    .owl-theme .owl-dots {
+        -webkit-tap-highlight-color: transparent;
+        position: absolute;
+        right: 45%;
+        top: 70%;
+    }
+    
     .slider_details
     {
-        padding: 30px 0;
+        padding: 30px 0 30px 30px;
     }
     .form_icon img
     {

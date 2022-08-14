@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'eudoxus_sansmedium';
+    font-weight: 500;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6, p
+{
+    margin: 0;
+}
+.container
+{
+    max-width: 1240px;
+}
+::-webkit-scrollbar
+{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track
+{
+    background: rgba(233, 242, 255, 0.3);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #0133661A;
+}
+/* nav menu area start*/
+
+.menu_border{
+    border-bottom: 2px solid #F3F3F3;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 1000;
+}
+.menu_wrapper{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+/* First div start*/
+a.nav-link{
+    border-bottom: 3px solid transparent;
+}
+a.nav-link:focus
+{
+    border-bottom: 3px solid #518581;
+    color: #518581;
+}
+a.nav-link:hover
+{
+    color: #518581 !important;
+}
+
+.brand_area a:hover
+{
+    color: #151411;
+}
+.brand_area
+{
+    width: 31%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+/* First div end */
+
+/* Second div start*/
+.main_menu_area
+{
+    width: 69%;
+    height: 100%;
+    justify-content: space-between;
+}
+/* Second div end*/
+
+/*Nav Logo start*/
+
+.brand_logo 
+{
+    font-family: 'eudoxus_sansbold';
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #151411;
+}
+/* Nav Logo end*/
+
+/* navigation items start*/
+
+.nav-link
+{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #151411;
+    padding: 0 !important;
+}
+.navbar_nav
+{
+    gap: 60px ;
+    margin-top: 10px;
+}
+.user_icon
+{
+    padding-left: 20px;
+}
+.navbar-toggler:focus 
+{
+    box-shadow: none !important;
+}
+/* navigation items end*/
+/* nav menu area end */
+
+/* about_section */
+
+.about_section
+{
+    padding-top: 100px;
+}
+.about_us_heading h1
+{
+    font-family: 'eudoxus_sansbold';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    color: #151411;
+}
+
+.about_us_text p
+{
+    font-family: 'eudoxus_sansmedium';
+    font-size: 18px;
+    line-height: 32px;
+    color: #AFADB5;
+    padding-top: 10px;
+}
+.embaded_video
+{
+    padding-top: 50px;
+}
+/* about_section */
+
+/* our_mission_section */
+
+.our_mission_section
+{
+    padding-top: 180px;
+}
+
+.our_mission_heading_text h6, .our_team_heading_text h6
+{
+    font-family: 'eudoxus_sansbold';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFB23F;
+}
+.our_mission_heading_text h1
+{
+    font-family: 'eudoxus_sansbold';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color: #151411;
+    padding: 14px 50px 0 0;
+}
+.single_projects h2
+{
+    font-family: 'eudoxus_sansbold';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color: #151411;
+}
+.project_finished
+{
+    padding-top: 50px;
+}
+.single_projects p
+{   font-size: 18px;
+    line-height: 32px;
+    color: #AFADB5;    
+}
+.single_projects 
+{
+    padding-right: 50px;
+}
+.support_icon
+{
+    width: 100%;
+    height: 100%;
+}
+.support_icon
+{
+    height: 62px;
+    width: 62px;
+    background: #F9F9F9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.support_description
+{
+    padding-left: 25px;
+}
+.support_description h4 
+{
+    font-family: 'eudoxus_sansbold';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #151411;
+}
+.support_description p 
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: #AFADB5;
+    padding-top: 15px; 
+}
+.single_support 
+{
+    padding-top: 30px;
+}
+.all_support_area 
+{
+    padding-top: 8px;
+}
+/* our_mission_section */
+
+
+
+/* our_team_section */
+
+.our_team_section
+{
+    padding-top: 180px;
+}
+.our_team_heading_text h1
+{
+    font-family: 'eudoxus_sansbold';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color: #151411;
+    padding-top: 14px;
+}
+.our_team_description p
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: #AFADB5;
+    
+}
+.our_team_description
+{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+}
+.single_member 
+{
+    padding-top: 40px;
+}
+.member_details h3
+{
+    font-family: 'eudoxus_sansbold';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #151411;
+}
+.member_details p
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: #AFADB5;
+}
+.member_details 
+{
+    padding-top: 25px;
+}
+
+/* our_team_section */
+
+
+/* discount_area */
+
+.discount_area
+{
+    padding: 130px 0 80px;
+}
+.discount_header h3 
+{
+    font-family: 'eudoxus_sansbold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 57px;
+    color: #151411;
+}
+
+/* discount_button */
+
+.discount_button img
+{
+    padding-left: 15px;
+}
+.discount_button
+{
+    padding: 15px 30px;
+    border: none;
+    background-color: #518581;
+    color: #FFFFFF;
+}
+/* discount_button */
+
+/* discount_area */
+
+/* footer_area */
+.footer_area
+{
+    border-top: 1.5px solid #ECE4DE;
+    padding: 70px 0;
+}
+.footer_wrapper
+{
+    display: flex;
+    padding: 70px 0;
+    border-top: 2px solid #ECE4DE;
+}
+
+.footer_product_list
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer_paragraph p
+{   font-family: 'eudoxus_sansmedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #151411;
+}
+.footer_product_list
+{
+    padding-top: 20px;
+    gap: 10px;
+}
+.footer_product_list a
+{
+    font-family: 'eudoxus_sansmedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #151411;
+    opacity: 0.8;
+}
+.footer_all_items_wrapper
+{
+    gap: 75px;
+}
+/* footer_area */
